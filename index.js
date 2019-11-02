@@ -56,12 +56,4 @@ const numberInWords = (number) => {
         .trim();
 };
 
-console.log(numberInWords(11)); // "sebelas"
-console.log(numberInWords(213)); // "dua ratus tiga belas"
-console.log(numberInWords(4)); // "empat"
-console.log(numberInWords(27)); // "dua puluh tujuh"
-console.log(numberInWords(102)); // "seratus dua"
-console.log(numberInWords(38079)); // "tiga puluh delapan ribu tujuh puluh sembilan"
-console.log(numberInWords(82102713)); // "delapan puluh dua juta seratus dua ribu tujuh ratus tiga belas"
-console.log(numberInWords(82102713123564)); // "delapan puluh dua triliun seratus dua miliar tujuh ratus tiga belas juta seratus dua puluh tiga ribu lima ratus enam puluh empat"
-
+module.exports = numberInWords;
