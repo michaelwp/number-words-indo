@@ -1,0 +1,21 @@
+{
+  "name": "number-words-indo",
+  "version": "1.0.0",
+  "description": "conversion from digit to word in indonesian",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelwp/number-words-indo.git"
+  },
+  "keywords": ["converter", "number to words"],
+  "author": "michaelwp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelwp/number-words-indo/issues"
+  },
+  "homepage": "https://github.com/michaelwp/number-words-indo#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/@michaelwp" }
+}
